@@ -2,6 +2,8 @@ package stragety;
 
 /**
  * Created by gavin on 2017/3/3.
+ * <p>
+ * 策略模式
  */
 public class TranficCalculator implements CalculateStrategy {
 
@@ -14,11 +16,11 @@ public class TranficCalculator implements CalculateStrategy {
 
     public static void main(String[] args) {
 
-        TranficCalculator tranficCalculator=new TranficCalculator();
+        TranficCalculator tranficCalculator = new TranficCalculator();
 
         tranficCalculator.setCalculateStrategy(new BusStrategy());
 
-        System.out.println("公交车的价格："+tranficCalculator.calculatePrice(22));
+        System.out.println("公交车的价格：" + tranficCalculator.calculatePrice(22));
     }
 
     @Override
