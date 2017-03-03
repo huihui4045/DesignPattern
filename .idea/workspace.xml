@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbbeeca8-2e9f-44bf-a319-3d20c3afc63b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/CarFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/Q3Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/inter/IBrake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/inter/IEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/inter/ITire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/DomesticEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/ImportEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/NormalBrake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/NormalTire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/SUVTire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abstractfactroy/interImpl/SeniorBrake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/ConcreteFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/ConcreteProductA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/ConcreteProductB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factory/Product.java" />
-    </list>
+    <list default="true" id="cbbeeca8-2e9f-44bf-a319-3d20c3afc63b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -155,28 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="abstractfactroy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstractfactroy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interImpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -653,12 +611,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488440121992</updated>
-      <workItem from="1488440125692" duration="9530000" />
+      <workItem from="1488440125692" duration="10733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9530000" />
+    <option name="totallyTimeSpent" value="10733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
@@ -674,7 +632,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
