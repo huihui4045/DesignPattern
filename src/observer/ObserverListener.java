@@ -6,5 +6,5 @@ package observer;
  */
 public interface ObserverListener {
 
-    void observerUpData(String content);//刷新操作
+    void observerUpData(Object content);//刷新操作
 }

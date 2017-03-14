@@ -11,10 +11,12 @@ public class ObserverManager implements SubjectListener {
     private static ObserverManager manager;
 
 
-    private List<ObserverListener> list=new ArrayList<>();
+    private List<ObserverListener> list = new ArrayList<>();
 
+    private ObserverManager() {
+    }
 
-    public ObserverManager getInstance() {
+    public static ObserverManager getInstance() {
 
         if (null == manager) {
 
@@ -35,15 +37,24 @@ public class ObserverManager implements SubjectListener {
     @Override
     public void add(ObserverListener observerListener) {
 
+        list.add(observerListener);
     }
 
     @Override
-    public void notifyObserver(String content) {
+    public void notifyObserver(Object content) {
 
+        if (list.size() > 0) {
+
+            list.forEach(item -> item.observerUpData(content));
+        }
     }
 
     @Override
     public void remove(ObserverListener observerListener) {
 
+        if (list.contains(observerListener)) {
+
+            list.remove(observerListener);
+        }
     }
 }

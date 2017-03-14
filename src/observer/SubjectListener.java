@@ -7,6 +7,6 @@ package observer;
 public interface SubjectListener {
 
     void add(ObserverListener observerListener);
-    void notifyObserver(String content);
+    void notifyObserver(Object content);
      void remove(ObserverListener observerListener);
 }
